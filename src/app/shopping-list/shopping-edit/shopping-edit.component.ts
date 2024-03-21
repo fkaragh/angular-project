@@ -11,13 +11,13 @@ export class ShoppingEditComponent {
   @ViewChild('nameInput', { static:false }) nameInputRef: ElementRef;
   @ViewChild('amountInput', { static:false }) amountInputRef: ElementRef;
 
-  constructor(private slService: ShoppingListService){}
+  constructor(private slService: ShoppingListService) { }
 
 
   onAddItem(){
     const ingName = this.nameInputRef.nativeElement.value;
-    const amountName = this.amountInputRef.nativeElement.value;
-    const newIngredient = new Ingredient(ingName , amountName);
-    this.slService.addIngredients(newIngredient);
+    const ingAmount = this.amountInputRef.nativeElement.value;
+    const newIngredient = new Ingredient(ingName , ingAmount);
+    this.slService.addIngredient(newIngredient);
   }
 }
