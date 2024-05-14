@@ -1,6 +1,13 @@
-# AngularProject
+# Angular ShoppingList and RecipeBook Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+A shopping list web application project to build a recipe book and shopping list app. Users can manage recipes, view them in detail, and manage their shopping list, and even push ingredients from a recipe directly to the shopping list.
+
+# Screen Shots
+
+![image](https://github.com/fkaragh/angular-project/assets/73664713/80a2ca76-c4d6-4b71-9c40-257fe9d4187d)
+![image](https://github.com/fkaragh/angular-project/assets/73664713/8e4d06b7-b5b6-4200-9cfc-8dc0f0dafce2)
+![image](https://github.com/fkaragh/angular-project/assets/73664713/52436ed2-d848-48b1-ada7-6b51e4cf7266)
+![image](https://github.com/fkaragh/angular-project/assets/73664713/2b7fa931-6a73-48c8-9311-e28cc1b748b3)
 
 ## Development server
 
